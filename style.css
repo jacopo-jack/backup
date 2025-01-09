@@ -1,0 +1,29 @@
+/*parte solid like dopo *{}*/
+*{
+    background-color: black;
+    color:white;
+    font-family: sans-serif;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+
+}
+/* parte da qui il protocollo*/
+main,
+main>article,
+main>article>div {
+background:inherit;
+}
+body {
+counter-reset:section sub-section appendix sub-appendix;
+}
+/* magari sostituire con figure */
+img{
+    position:relative;
+    padding:0.5em;
+}
+h1{
+    font-size: 220%;
+    font-weight:bold;
+}
